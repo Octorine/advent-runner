@@ -4,9 +4,6 @@ import System.TimeIt (timeItT)
 import Text.Printf ( printf )
 import Control.Exception (evaluate)
 
-dataFile :: String -> IO String
-dataFile s = readFile $ "/home/james/Code/advent/2017/data/" ++ s
-
 data Day = Day
   { dayName :: String,
     dayPart1 :: IO String,

@@ -1,4 +1,4 @@
-cabal-version:      3.4
+cabal-version:      3.6
 -- The cabal-version field refers to the version of the .cabal specification,
 -- and can be different from the cabal-install (the tool) version and the
 -- Cabal (the library) version you are using. As such, the Cabal (the library)
@@ -69,7 +69,7 @@ library
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base >=4.14.3.0 && <= 4.16.4.0,
+    build-depends:    base >=4.19.0.0,
                       timeit >= 2.0 && < 2.1
     hs-source-dirs:      
 
@@ -103,5 +103,5 @@ test-suite advent-runner-test
 
     -- Test dependencies.
     build-depends:
-        base >=4.14.3.0 && <= 4.16.4.0,
+        base >=4.19.0.0,
         advent-runner
